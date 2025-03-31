@@ -2,6 +2,8 @@
 
 This is a simple facial recognition program that simulates an attendance control system using a webcam. It compares captured faces with pre-stored images located in the `Employees` folder. Users can fill this folder with images of their preferred faces for recognition.
 
+By default, the `Employees` folder contains test faces of famous characters for demonstration purposes.
+
 ## Features
 - Uses a webcam to capture real-time images.
 - Detects and encodes faces using the `face_recognition` library.
